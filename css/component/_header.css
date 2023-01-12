@@ -1,3 +1,25 @@
 .header{
-	background-color: red;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
 }
+.header__container{
+	justify-content: space-between;
+
+}
+
+.social{
+	display: flex;
+	align-items: center;
+}
+
+.social__link{
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
