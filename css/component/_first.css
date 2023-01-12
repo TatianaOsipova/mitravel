@@ -19,4 +19,35 @@
 	border-radius: 100px;
 	text-transform: uppercase;
 	display: inline-block;
+	margin-bottom: 42px;
+}
+
+.first__title {
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 84px;
+	max-width: 40%;
+	margin-bottom: 40px;
+}
+
+.first__descr {
+	font-family: 'SFCompact', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+	max-width: 32%;
+	margin-bottom: 58px;
+}
+
+.first__btn {
+	font-family: 'SFProDisplay';
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 14px;
+	color: var(--white-color);
+	padding: 33px 80px;
+	background-color: var(--accent-color);
+	text-transform: uppercase;
+	border-radius: 8px;
 }
