@@ -17,6 +17,7 @@
 .become__item {
 	width: 23.5%;
 	margin-right: 2%;
+	margin-bottom: 2%;
 	overflow: hidden;
 	border-radius: 4px;
 	position: relative;
@@ -27,7 +28,7 @@
 	margin-right: 0;
 }
 
-.become__image{
+.become__image {
 	max-height: 100%;
 	object-fit: cover;
 }
@@ -46,7 +47,7 @@
 	transition: transform 0.3s easy-in-out;
 }
 
-.become__text::before {
+.become__item::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -54,6 +55,16 @@
 	left: 0;
 	bottom: 0;
 	background: var(--neptune-color);
-	mix-blend-mode: normal;
+	opacity: 0;
+	transition: opacity 0.3s easy-in-out;
+}
+
+.become__item:hover::before {
 	opacity: 0.9;
+	transition: opacity 0.3s easy-in-out;
+}
+
+.become__item:hover .become__text {
+	transform: translateY(0);
+	transition: transform 0.3s easy-in-out;
 }
