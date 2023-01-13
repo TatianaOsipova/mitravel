@@ -51,6 +51,7 @@
 	letter-spacing: 2px;
 	color: var(--white-color);
 	text-transform: uppercase;
+	margin-left: -38px;
 }
 
 .burger{
