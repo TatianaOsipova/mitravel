@@ -32,13 +32,13 @@
 }
 
 .social__link--fb {
-	background-image: url(/img/facebook.svg);
+	background-image: url(../../img/facebook.svg);
 	width: 11px;
 	height: 20px;
 }
 
 .social__link--tw {
-	background-image: url(/img/twitter.svg);
+	background-image: url(../../img/twitter.svg);
 	width: 20px;
 	height: 17px;
 }

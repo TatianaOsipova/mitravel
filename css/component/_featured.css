@@ -3,6 +3,16 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	height: 1080px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
 
-
+.featured__stories{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 10%;
 }
