@@ -19,7 +19,7 @@
 	align-items: center;
 }
 
-.social__item:not(last-child){
+.social__item:not(last-child) {
 	margin-right: 40px;
 
 }
@@ -53,17 +53,17 @@
 	color: var(--white-color);
 	text-transform: uppercase;
 	margin-left: -44px;
-  margin-top: -27px;
+	margin-top: -27px;
 }
 
-.burger{
+.burger {
 	width: 48px;
 	height: 10px;
 	position: relative;
 	margin-top: -27px;
 }
 
-.burger__line{
+.burger__line {
 	width: 100%;
 	height: 2px;
 	background-color: var(--white-color);
@@ -73,9 +73,7 @@
 	top: 0;
 }
 
-.burger__line:last-child{
+.burger__line:last-child {
 	top: auto;
 	bottom: 0;
 }
-
-
