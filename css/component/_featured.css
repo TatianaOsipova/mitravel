@@ -21,12 +21,12 @@
 	height: 100%;
 	width: 35.3%;
 	background-color: rgba(17, 31, 42, 0.9);
+	padding: 126px 133;
 }
 
 
 .blog-article {
 	padding-bottom: 105px;
-
 }
 
 .blog-article__category {
@@ -66,4 +66,29 @@
 
 .blog-article__link {
 	background-color: var(--neptune-color);
+	/* display: inline-block; */
 }
+
+.featured__title {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	color: var(--white-color);
+	padding: 126px 131px;
+}
+
+.featured__list {}
+
+.feature-list {
+	padding: 126px 131px;
+}
+
+.feature-list__article {}
+
+.feature-list__image {}
+
+.feature-list__text {}
+
+.feature-list__title {}
+
+.feature-list__time {}
