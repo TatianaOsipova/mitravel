@@ -1,0 +1,19 @@
+.slider-container{
+	overflow: hidden;
+	width: 100%;
+}
+
+.featured-videos{
+	padding-top: 150px;
+}
+
+.featured-videos__title{
+	margin-right: 4px;
+    letter-spacing: -2px;
+}
+
+.featured-videos__descr{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 634px;
+}
