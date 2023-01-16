@@ -97,6 +97,18 @@
 	background-image: url(../../img/slider-four.jpg);
 }
 
+.slide-5 {
+	background-image: url(../../img/slider-five.jpg);
+}
+
+.slide-6 {
+	background-image: url(../../img/slider-six.jpg);
+}
+
+.slide-7 {
+	background-image: url(../../img/slider-seven.jpg);
+}
+
 .slide-play{
 	position: absolute;
 	left: 40px;
