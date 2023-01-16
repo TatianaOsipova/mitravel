@@ -1,0 +1,43 @@
+.newsletter {
+	padding-top: 52px;
+}
+
+.newsletter__content {
+	overflow: hidden;
+	border-radius: 8px;
+	background-image: url(../../img/newsletter-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 133px;
+	padding-top: 338px;
+}
+
+.newsletter__title {
+	color: var(--white-color);
+	max-width: 370px;
+
+}
+
+.section-title {}
+
+.newsletter__descr {
+	font-family: 'SFCompactText', sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
+.newsletter__form {}
+
+.subscribe-form {}
+
+.subscribe-form__field {}
+
+.btn {}
+
+.btn-rest {}
+
+.subscribe-form__btn {}
