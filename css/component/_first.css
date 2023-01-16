@@ -6,7 +6,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: var(--white-color);
-	margin-bottom: -23px;
+	margin-bottom: 0px;
 }
 
 .first__container {
@@ -26,7 +26,7 @@
 	border-radius: 100px;
 	text-transform: uppercase;
 	display: inline-block;
-	margin-bottom: 19px;
+	margin-bottom: 42px;
 }
 
 .first__title {
