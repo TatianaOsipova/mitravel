@@ -1,14 +1,20 @@
+.inspirations{
+	padding-top: 95px;
+}
+
 .inspirations-grid {
 	display: grid;
 }
-.section-title {
-}
-.section-title--center {
-}
+
 .inspirations__descr {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #788692;
+	max-width: 634px;
+	margin: 0 auto;
 }
-.inspirations-grid {
-}
+
 .inspirations__list {
 	gap: 32px;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -16,47 +22,89 @@
 }
 
 .inspirations__item {
+	position: relative;
 	border-radius: 8px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+.inspirations__item::after {
+	content: "";
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 65%;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+}
 
-.inspirations__item--big{
+.inspirations__category {
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1.1px;
+	text-transform: uppercase;
+	color: var(--white-color);
+}
+
+.inspirations__title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	color: var(--white-color);
+}
+
+.inspirations__people{
+	display: flex;
+}
+
+.inspirations__people-item{
+	overflow: hidden;
+	border-radius: 100%;
+	/* border: 4px solid var(--white-color); */
+
+}
+
+
+
+.inspirations__item--big {
 	grid-column-end: span 2;
 }
 
-.inspirations__item--bigheight{
+.inspirations__item--bigheight {
 	height: 710px;
 }
 
-.inspirations__item--1{
+.inspirations__item--1 {
 	background-image: url(../../img/insp-1.jpg);
 }
 
-.inspirations__item--2{
+.inspirations__item--2 {
 	background-image: url(../../img/insp-2.jpg);
 }
 
-.inspirations__item--3{
+.inspirations__item--3 {
 	background-image: url(../../img/insp-3.jpg);
 }
 
-.inspirations__item--4{
+.inspirations__item--4 {
 	background-image: url(../../img/insp-4.jpg);
 }
 
-.inspirations__item--5{
+.inspirations__item--5 {
 	background-image: url(../../img/insp-5.jpg);
 }
 
-.inspirations__item--6{
+.inspirations__item--6 {
 	background-image: url(../../img/insp-6.jpg);
 }
 
-.inspirations__item--7{
+.inspirations__item--7 {
 	background-image: url(../../img/insp-7.jpg);
 }
 
-
+.inspirations__text {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 5;
+}
