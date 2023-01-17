@@ -45,6 +45,18 @@
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
 }
 
+.inspirations__play{
+	background-image: url(../../img/play.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+
 .inspirations__category {
 	font-size: 10px;
 	line-height: 12px;
@@ -72,7 +84,8 @@
 	border-radius: 100%;
 	position: relative;
 	margin-bottom: -6px;
-
+	width: 48px;
+	height: 48px;
 }
 
 .inspirations__people-item:first-child {
