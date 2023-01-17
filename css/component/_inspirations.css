@@ -81,10 +81,11 @@
 
 .inspirations__people-item:not(:first-child){
 	margin-left: -22px;
-
 }
 
-
+.inspirations__people-item.center{
+	z-index: 10;
+}
 
 .inspirations__item--big {
 	grid-column-end: span 2;
