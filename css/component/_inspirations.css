@@ -6,13 +6,20 @@
 	display: grid;
 }
 
+.inspirations__title {
+	margin-bottom: 25px;
+}
+
 .inspirations__descr {
+	font-family: 'SFCompact', sans-serif;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
 	color: #788692;
 	max-width: 634px;
 	margin: 0 auto;
+	margin-bottom: 95px;
 }
 
 .inspirations__list {
@@ -46,7 +53,7 @@
 	color: var(--white-color);
 }
 
-.inspirations__title {
+.inspirations__subtitle {
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 40px;

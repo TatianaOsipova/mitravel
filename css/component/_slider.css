@@ -19,6 +19,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	overflow: hidden;
+	margin-top: 5px;
 }
 
 .swiper-slide::after {
@@ -50,7 +51,7 @@
 	position: relative;
 	z-index: 5;
 	padding-left: 30px;
-	padding-bottom: 22px;
+	padding-bottom: 30px;
 	transition: transform 0.3s;
 	transform: translateY(200px);
 	margin-top: 30px;
@@ -112,8 +113,8 @@
 
 .slide-play{
 	position: absolute;
-	left: 40px;
-	top: 40px;
+	left: 33px;
+	top: 17px;
 	width: 112px;
 	height: 112px;
 	background-image: url(../../img/video-play.svg);
