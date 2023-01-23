@@ -91,7 +91,7 @@
 
 .menu {
 	position: fixed;
-	left: 0;
+	left: -150vw;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -99,7 +99,12 @@
 	height: 100%;
 	z-index: 1000;
 	background-color: var(--neptune-color);
+	transition: left 0.3s;
+}
 
+.menu--visible{
+	left: 0;
+	transition: left 0.3s;
 }
 
 .menu__nav {
@@ -116,6 +121,8 @@
 	align-items: center;
 	font-weight: 700;
 	font-size: 40px;
+	padding: 30px 0;
+	overflow-y: auto;
 }
 
 .menu__link {
@@ -130,7 +137,7 @@
 	transition: color 0.3s;
 }
 
-.menu__close{
+.menu__close {
 	width: 40px;
 	height: 40px;
 	position: absolute;
@@ -138,7 +145,7 @@
 	top: 10%;
 }
 
-.menu__close-line{
+.menu__close-line {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -147,10 +154,10 @@
 	background-color: var(--white-color);
 }
 
-.menu__close-line:first-child{
+.menu__close-line:first-child {
 	transform: rotate(45deg);
 }
 
-.menu__close-line:last-child{
+.menu__close-line:last-child {
 	transform: rotate(-45deg);
 }
