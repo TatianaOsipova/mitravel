@@ -59,7 +59,13 @@
 	color: var(--white-color);
 	position: relative;
 	z-index: 5;
+	transition: background-color 0.3s;
 	/* margin-bottom: 156px; */
+}
+
+.first__btn:hover{
+	background-color: var(--accent-hover-color);
+	transition: background-color 0.3s;
 }
 
 .first__bottom {
