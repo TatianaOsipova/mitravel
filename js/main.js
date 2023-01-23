@@ -1,21 +1,25 @@
 const swiper1 = document.querySelector('.slider-container'),
-      swiper2 = document.querySelector('.slider-container'),
+      swiper2 = document.querySelector('.swiper-container'),
       burger = document.querySelector('.burger'),
       close = document.querySelector('.menu__close'),
 			menu = document.querySelector('.menu');
 
-let swiper = new Swiper(swiper1, {
+let swiperSlider1 = new Swiper(swiper1, {
 	centeredSlides: true,
 	slidesPerView: 'auto',
 	loop: true,
 	spaceBetween: 105,
 });
 
-let swiper2= new Swiper(swiper2, {
+let swiperSlider2= new Swiper(swiper2, {
 	centeredSlides: true,
-	slidesPerView: 'auto',
+	slidesPerView: 1,
 	loop: true,
-	spaceBetween: 105,
+	spaceBetween: 10,
+	fadeEffect: {
+		crossFade: true
+	},
+	effect: 'fade',
 });
 
 burger.addEventListener('click', () => {
