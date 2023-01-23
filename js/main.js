@@ -20,6 +20,10 @@ let swiperSlider2= new Swiper(swiper2, {
 		crossFade: true
 	},
 	effect: 'fade',
+	navigation: {
+		nextEl: '.btn-right',
+		prevEl: '.btn-left',
+	},
 });
 
 burger.addEventListener('click', () => {
