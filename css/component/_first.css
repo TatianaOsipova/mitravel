@@ -39,7 +39,7 @@
 }
 
 .first__descr {
-	font-family: 'SFCompact', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 17px;
@@ -102,7 +102,7 @@
 .search-form__button {
 	width: 18px;
 	height: 18px;
-	background-image: url(/img/search.svg);
+	background-image: url(../../img/search.svg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
