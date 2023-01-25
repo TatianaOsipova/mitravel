@@ -2,6 +2,7 @@
 @import "_overall.css";
 @import "_global.css";
 @import "_variables.css";
+@import "_media.css";
 
 @import "./component/_header.css";
 @import "./component/_first.css";
