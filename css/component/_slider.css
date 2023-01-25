@@ -19,7 +19,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	overflow: hidden;
-	margin-top: 5px;
+	/* margin-top: 5px; */
 }
 
 .slider-container .swiper-slide::after {
