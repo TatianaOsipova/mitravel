@@ -133,7 +133,9 @@
 	text-align: center;
 	position: absolute;
 	top: 310px;
-	left: 195px;
+	left: 140px;
+	box-sizing: border-box;
+
 }
 
 button {
@@ -152,7 +154,10 @@ button:hover {
 	background-color: var(--neptune-hover-color);
 	transition: background-color .5s ease-in;
 	color: rgb(255, 254, 254);
-	border: none;
+}
+
+#btnPrev{
+	margin-right: 100px;
 }
 
 .main-slider {
