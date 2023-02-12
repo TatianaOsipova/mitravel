@@ -136,22 +136,23 @@
 	left: 140px;
 	box-sizing: border-box;
 
+
 }
 
 button {
 	font-size: 18px;
 	padding: 0.2rem 1rem;
 	cursor: pointer;
-	background-color: var(--neptune-color);
+	background-color: rgb(182, 203, 222);
 	color: var(--neptune-hover-color);
-	border: 1px solid var(--neptune-hover-color);
+	border: none;
+	/* border: 1px solid var(--neptune-hover-color); */
 	border-radius: 5px;
 	transition: background-color .5s ease-in;
 
 }
 
 button:hover {
-	background-color: var(--neptune-hover-color);
 	transition: background-color .5s ease-in;
 	color: rgb(255, 254, 254);
 }
