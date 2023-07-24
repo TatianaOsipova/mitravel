@@ -11,6 +11,13 @@ let swiperSlider1 = new Swiper(swiper1, {
 	slidesPerView: 'auto',
 	loop: true,
 	spaceBetween: 105,
+	autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+  },
+  pagination: {
+		el: ".swiper-pagination",
+  },
 });
 
 let swiperSlider2 = new Swiper(swiper2, {
@@ -22,6 +29,10 @@ let swiperSlider2 = new Swiper(swiper2, {
 		crossFade: true
 	},
 	effect: 'fade',
+	autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+  },
 	navigation: {
 		nextEl: '.btn-right',
 		prevEl: '.btn-left',
